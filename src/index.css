@@ -69,21 +69,21 @@
     padding-left: 128px;
     padding-right: 128px;
   }
+  
 }
 @media (max-width: 1500px) and (min-width: 1366px) {
   .padding-2xl {
     padding-left: 40px;
     padding-right: 40px;
   }
-  .text-2xl{
-    font-size: 36px;
-  }
+  
 }
 @media (max-width: 1366px) and (min-width: 1200px) {
   .padding-2xl {
     padding-left: 30px;
     padding-right: 30px;
   }
+
 }
 
 

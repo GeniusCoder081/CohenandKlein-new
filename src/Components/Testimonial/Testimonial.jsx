@@ -114,15 +114,17 @@ const Testimonial = () => {
         </div>
         <div className="flex justify-center md:justify-end lg:justify-center 2xl:ml-30 lg:ml-20 ">
           <div
-            className="flex relative z-10 bg-white border-[2px] rounded-[10px] border-[#f8c67b] 2xl:p-5 lg:p-2 sm:p-4 p-2.5 gap-[15px] 2xl:max-w-[510px] max-w-[460px]  sm:mt-[99px] mt-10 lg:ml-[60px] items-center cursor-pointer"
+            className="flex flex-col relative z-10 bg-white border-[2px] rounded-[10px] border-[#f8c67b] 2xl:p-3 lg:p-2 sm:p-4 p-2.5 gap-1 2xl:max-w-[510px] max-w-[460px]  sm:mt-[99px] mt-10 lg:ml-[60px] items-center cursor-pointer"
             onClick={() => window.open(CoursePdf.debtcollectionpdf, "_blank")}
           >
-            <img src={images.pdf} alt="" className="max-w-17 h-17 " />
-            <div>
-              <h6 className="text-primary font-medium roboto-serif-font 2xl:text-[22px] sm:text-lg text-base">
+            <div className="flex gap-x-2">
+              <img src={images.pdf} alt="" className="max-w-15 h-13 m-auto" />
+              <h6 className="text-primary leading-[23px] font-medium roboto-serif-font 2xl:text-[22px]  sm:text-lg text-base">
                 100+ Debt Collection & Revenue Management Training Courses
               </h6>
-              <p className="text-smallclr roboto 2xl:text-lg text-sm sm:text-base">
+            </div>
+            <div>
+              <p className="text-smallclr roboto 2xl:text-lg text-sm sm:text-base leading-[23px]">
                 The longer your delinquent accounts go uncollected, the harder
                 they will be to recover.
               </p>

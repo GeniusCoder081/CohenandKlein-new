@@ -14,7 +14,7 @@ const About = () => {
   return (
     <>
       <div>
-        <div className="roboto 2xl:px-[150px] lg:px-15 sm:px-8 px-6 lg:py-30 sm:py-20 py-10 ">
+        <div className="roboto 2xl:px-[150px] mt-43 lg:px-15 sm:px-8 px-6 lg:py-30 sm:py-20 py-10 ">
           <div className="grid lg:grid-cols-2 grid-cols-1 2xl:gap-32 lg:gap-15">
             <div className="flex justify-center lg:mt-0 mt-12 items-center relative lg:order-1 order-2">
               <div>

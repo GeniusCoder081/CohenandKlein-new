@@ -15,8 +15,8 @@ const Navbar = () => {
   };
 
   return (
-    <header>
-      <div className="roboto md:block hidden bg-footerdownclr text-white px-4 sm:px-8 md:px-10 2xl:px-15 py-2 fixed-top">
+    <header className="fixed top-0 z-50 w-full">
+      <div className="roboto md:block hidden bg-footerdownclr text-white px-4 sm:px-8 md:px-10 2xl:px-15 py-2">
         <div className="flex flex-col md:flex-row flex-wrap justify-between items-center mx-auto text-center md:text-left">
           <div className="text-sm sm:text-base md:text-lg mb-2 md:mb-0">
             <div className="2xl:text-base sm:text-sm text-xs flex flex-col md:flex-row gap-2 md:gap-9 text-center md:text-left roboto-serif-font">
@@ -76,7 +76,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="bg-primary w-full roboto fixed-top">
+      <div className="bg-primary w-full roboto">
         <div className="px-4 sm:px-8 padding-2xl py-5 flex items-center justify-between">
           <div className="flex-shrink-0">
             <Link to="/">

@@ -4,7 +4,7 @@ import { FaCheckCircle } from "react-icons/fa";
 import { LuPhoneCall } from "react-icons/lu";
 const Contact = () => {
   return (
-    <div className="roboto">
+    <div className="roboto  mt-43">
       <div>
         <div className="2xl:px-[150px] lg:px-15 sm:px-8 px-6 relative overflow-hidden md:py-18 py-8 bg-[#FFFAF2] ">
         <img src={images.bottomcontactdesign} alt="" className="-left-7  -bottom-4 absolute -z-0 2xl:w-[1000px] lg:w-[800px] md:w-[700px] sm:w-[600px] w-[550px]" />

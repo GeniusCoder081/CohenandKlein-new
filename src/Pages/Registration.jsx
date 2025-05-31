@@ -23,7 +23,7 @@ const Registration = () => {
       : "Fill Your Contact Information";
 
   return (
-    <div>
+    <div className=" mt-43">
       <div className="overflow-hidden relative w-full">
         <div
           ref={sliderRef}

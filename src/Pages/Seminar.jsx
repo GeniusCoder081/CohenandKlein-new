@@ -37,7 +37,7 @@ const Seminar = () => {
   }, []);
 
   return (
-    <div className="roboto">
+    <div className="roboto  mt-43">
       <div className="2xl:px-[150px] lg:px-15 sm:px-8 px-6 lg:py-30 sm:py-20 py-10 bg-[#FFFAF2]">
         <div className="grid lg:grid-cols-2 grid-cols-1 2xl:gap-32 lg:gap-15">
           <div className="relative w-full overflow-hidden">

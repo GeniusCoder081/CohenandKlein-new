@@ -4,9 +4,9 @@ import React from "react";
 import { PartnerData2 } from "../data";
 const Partners = () => {
   return (
-    <div>
+    <div className=" mt-43">
       <div>
-        <div className="2xl:px-[150px] lg:px-15 sm:px-8 px-6 relative overflow-hidden md:py-18 py-8 bg-[#FFFAF2] ">
+        <div className=" 2xl:px-[150px] lg:px-15 sm:px-8 px-6 relative overflow-hidden md:py-18 py-8 bg-[#FFFAF2] ">
           <img
             src={images.bottomcontactdesign}
             alt=""

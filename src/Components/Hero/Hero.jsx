@@ -48,7 +48,7 @@ const Hero = () => {
 
   return (
     <div>
-      <div className="roboto flex padding-2xl lg:px-15 px-4 2xl:pt-10 pt-12 sm:pb-22.5 pb-8 gap-27.5 justify-center items-center relative">
+      <div className="roboto flex padding-2xl lg:px-15 px-4 2xl:pt-10 mt-43 pt-12 sm:pb-22.5 pb-8 gap-27.5 justify-center items-center relative">
         <div className="flex flex-col xl:gap-[50px] gap-8 justify-center items-center">
           <div className="flex justify-center items-center sm:py-8 sm:order-1 order-2">
             <div className="grid lg:grid-cols-4 grid-cols-2 gap-9 mx-auto">
@@ -57,9 +57,9 @@ const Hero = () => {
                   to="/newsinner"
                   className={` flex flex-col text-white sm:gap-3 gap-0 items-center justify-center `}
                 >
-                  <h2 className="2xl:text-5xl sm:text-4xl text-2xl font-bold font-serif">
+                  <h2 className="2xl:text-5xl leading-[24px] sm:text-4xl text-2xl font-bold font-serif">
                     1500+</h2>
-                  <span className="2xl:text-[22px] sm:text-base text-xs roboto">
+                  <span className="2xl:text-[22px] leading-[26px] sm:text-base text-xs roboto">
                     Positive Testimonials
                   </span>
                 </Link>
@@ -69,10 +69,10 @@ const Hero = () => {
                   to="/categories"
                   className={` flex flex-col text-white sm:gap-3 gap-0 text-center items-center justify-center `}
                 >
-                  <h2 className="2xl:text-5xl sm:text-4xl text-2xl  font-bold roboto">
+                  <h2 className="2xl:text-5xl sm:text-4xl leading-[24px] text-2xl  font-bold roboto">
                     58
                   </h2>
-                  <span className="2xl:text-[22px] sm:text-base text-xs roboto">
+                  <span className="2xl:text-[22px] leading-[26px] sm:text-base text-xs roboto">
                     Categories of Customized Training Courses
                   </span>
                 </Link>
@@ -82,10 +82,10 @@ const Hero = () => {
                   to="/categories"
                   className={` flex flex-col text-white text-center sm:gap-3 gap-0 items-center justify-center `}
                 >
-                  <h2 className=" 2xl:text-5xl sm:text-4xl text-2xl  font-bold roboto">
+                  <h2 className=" 2xl:text-5xl leading-[24px] sm:text-4xl text-2xl  font-bold roboto">
                     1000+
                   </h2>
-                  <span className="2xl:text-[22px] sm:text-base text-xs roboto">
+                  <span className="2xl:text-[22px] leading-[26px] sm:text-base text-xs roboto">
                     Customized Training Courses
                   </span>
                 </Link>
@@ -95,10 +95,10 @@ const Hero = () => {
                   onClick={() => window.open(CoursePdf.debtcollectionpdf, "_blank")}
                   className="flex flex-col text-white sm:gap-4 gap-0 items-center text-center"
                 >
-                  <h2 className="2xl:text-5xl text-2xl sm:text-4xl text-2xl font-bold roboto">
+                  <h2 className="2xl:text-5xl text-2xl leading-[24px] sm:text-4xl text-2xl font-bold roboto">
                     100+
                   </h2>
-                  <span className="2xl:text-[22px] sm:text-base text-xs roboto">
+                  <span className="2xl:text-[22px] leading-[26px] sm:text-base text-xs roboto">
                    Customize Debt Collection and Revenue Management Courses
                   </span>
                 </Link>
