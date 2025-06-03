@@ -1,7 +1,7 @@
 import { MeetingData } from "../data";
 const Trainingpage = () => {
   return (
-    <div className=" mt-43">
+    <div >
       <div className="roboto padding-2xl lg:px-15 px-4">
         <div className="flex flex-col sm:pt-[40px] justify-between sm:gap-0 gap-2">
           <h2 className="text-primary mx-auto md:text-[32px] sm:text-2xl text-xl font-semibold  roboto-serif-font pr-[20px]">

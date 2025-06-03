@@ -68,22 +68,41 @@
   .padding-2xl {
     padding-left: 128px;
     padding-right: 128px;
+    padding-top: 20px ;
+    padding-bottom:20px ;
+  }
+  .logowidth{
+    width:370px;
   }
   
 }
-@media (max-width: 1500px) and (min-width: 1366px) {
+@media (max-width: 1550px) and (min-width: 1366px) {
   .padding-2xl {
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom:10px ;
   }
+  .logowidth{
+    width:280px;
+  }  
   
 }
 @media (max-width: 1366px) and (min-width: 1200px) {
   .padding-2xl {
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom:10px ;
   }
-
+  .logowidth{
+    width:280px;
+  } 
+}
+@media (max-width: 1550px) {
+  .midcontent{
+    display: none;
+  }
 }
 
 

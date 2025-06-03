@@ -69,7 +69,9 @@ import pdf2024 from "./2024-TRAINING-COVER-SHEET-Ck-2.pdf"
 import pdf2026 from "./2026, Debt Collections and Revenue Management Training Scheduletion.pdf"
 import pdf202612 from "./2026, Debt Collections and Revenue Management Training Scheduletion1.pdf"
 import debtcolltraining from "./CK 7135 Debt Collections and Revenue Management for Banks and Other Financial Institutions.pdf"
+import sometopicpdf from "./Some Topic.pdf"
 const CoursePdf = {
+    sometopicpdf,
     debtcolltraining,
     pdf2026,
     pdf202612,

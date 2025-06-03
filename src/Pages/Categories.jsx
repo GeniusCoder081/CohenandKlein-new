@@ -8,7 +8,7 @@ import { Pdfdata } from "../PdfData";
 import images from "../assets/Images/img";
 const Categories = () => {
   return (
-    <div className="roboto mt-40">
+    <div className="roboto">
       <div className=" 2xl:px-[150px] lg:px-15 sm:px-8 px-6  sm:py-20 py-10 bg-[#FFFAF2]">
         {/* First Banner */}
 

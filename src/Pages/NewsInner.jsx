@@ -43,7 +43,7 @@ const NewsInner = () => {
   }, []);
 
   return (
-    <div className="roboto  mt-43">
+    <div className="roboto">
       {/* 🔹 Banner Slider */}
       <div className="overflow-hidden relative w-full">
         <div

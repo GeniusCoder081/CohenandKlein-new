@@ -25,7 +25,7 @@ const CallCenter = () => {
   };
 
   return (
-    <div className="roboto 2xl:px-[130px]  mt-43 lg:px-15 sm:px-8 px-6 py-10 relative">
+    <div className="roboto 2xl:px-[130px] lg:px-15 sm:px-8 px-6 py-10 relative">
       <div className="flex gap-8">
         {/* Left Column (Scrollable) */}
         <div className="w-[430px] lg:flex hidden flex-col">

@@ -1,9 +1,10 @@
 import images from "../assets/Images/img";
 import { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
-import { Testimonial } from "../data";
+import { FaFileDownload } from "react-icons/fa";
 import { MdStar, MdStarHalf } from "react-icons/md";
-import { DebtCollData, NewsInnerdata, NewsdataTest } from "../PdfData";
+import {  NewsdataTest } from "../PdfData";
+import CoursePdf from "../assets/CourcesPDF/CoursePdf";
 const extractCKEntries = (data) => {
   const regex = /CK\s?(\d{3,4})/i;
   const map = new Map();
@@ -34,10 +35,10 @@ const Testimonialread = () => {
   const queryParams = new URLSearchParams(location.search);
   const defaultCk = queryParams.get("ck");
   const [selectedCkCode, setSelectedCkCode] = useState(null);
+
   const selectedItems =
     ckEntries.find((entry) => entry.ckCode === selectedCkCode)?.entries || [];
 
-  
   // Auto Slider
   useEffect(() => {
     const interval = setInterval(() => {
@@ -54,7 +55,7 @@ const Testimonialread = () => {
   }, [defaultCk]);
 
   return (
-    <div className="roboto  mt-43">
+    <div className="roboto">
       {/* 🔹 Banner Slider */}
       <div className="overflow-hidden relative w-full">
         <div
@@ -68,14 +69,13 @@ const Testimonialread = () => {
         </div>
       </div>
 
-      {/* 🔹 Scrollable CK Code Tabs */}
+      {/* 🔹 CK Code Tabs */}
       <div className="relative w-full flex gap-3 mt-8 2xl:px-28 lg:px-15 sm:px-8 pb-8 px-6">
-
         <div ref={ckContainerRef} className="flex gap-x-2 gap-y-2 flex-wrap">
           {ckEntries.map(({ ckCode }) => (
             <button
               key={ckCode}
-              className={`px-4 py-2 flex-shrink-0 whitespace-nowrap rounded-md text-sm font-semibold ${
+              className={`px-4 py-2 flex-shrink-0 whitespace-nowrap rounded-md text-base font-semibold ${
                 selectedCkCode === ckCode
                   ? "bg-primary text-white"
                   : "bg-gray-200 text-black"
@@ -87,18 +87,35 @@ const Testimonialread = () => {
           ))}
         </div>
       </div>
+    
 
       {/* 🔹 CK Data */}
       <div className="2xl:px-28 lg:px-15 sm:px-8 pb-8 px-6">
         {selectedItems.map((item) => (
           <div key={item.id} className="mb-6">
-            <h3 className="text-lg sm:text-[32px] font-semibold text-primary text-left font-serif">
-              {item.title}
-            </h3>
+            <div className="flex justify-between items-center">
+              <h3 className="text-lg sm:text-[32px] font-semibold text-primary text-left font-serif">
+                {item.title}
+              </h3>
+
+              {item.title === "CK 1400 Human Resources Management" && (
+                <span
+                  className="cursor-pointer flex flex-row gap-1 text-blue-800 hover:text-blue-900 text-2xl ml-4"
+                  title="Open PDF"
+                >
+                  <FaFileDownload
+                    className="ml-2 w-8 h-7"
+                    onClick={() =>
+                      window.open(CoursePdf.sometopicpdf, "_blank")
+                    }
+                  />
+                </span>
+              )}
+            </div>
             <ul className="flex flex-col sm:gap-6 gap-2 my-4">
-              {NewsInnerdata.map((comment, index) => (
+              {item.comments?.map((comment) => (
                 <li
-                  key={index}
+                  key={comment.id} // or key={index} if comment.id is not unique
                   className="border border-white hover:border-gray-300 hover:shadow-lg rounded-2xl flex flex-col sm:gap-4 gap-3 sm:px-9 px-3 sm:py-7 py-3"
                 >
                   <div className="flex flex-col sm:gap-2.5 gap-1">
@@ -111,6 +128,9 @@ const Testimonialread = () => {
                     </div>
                     <p className="sm:text-base text-sm text-blacklight">
                       {comment.title1}
+                    </p>
+                    <p className="sm:text-base text-sm text-blacklight">
+                      {comment.disc}
                     </p>
                   </div>
                   <div className="flex flex-col sm:gap-2 gap-1">

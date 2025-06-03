@@ -37,7 +37,7 @@ const Seminar = () => {
   }, []);
 
   return (
-    <div className="roboto  mt-43">
+    <div className="roboto ">
       <div className="2xl:px-[150px] lg:px-15 sm:px-8 px-6 lg:py-30 sm:py-20 py-10 bg-[#FFFAF2]">
         <div className="grid lg:grid-cols-2 grid-cols-1 2xl:gap-32 lg:gap-15">
           <div className="relative w-full overflow-hidden">
@@ -88,7 +88,7 @@ const Seminar = () => {
               <img
                 src={images.seminarimg}
                 alt=""
-                className=" relative xl:max-w-[610px] sm:max-w-[500px] rounded-[20px] drop-shadow-[0_5px_10px_rgba(38,50,56,0.15)] z-50"
+                className=" relative xl:max-w-[610px] sm:max-w-[500px] rounded-[20px] drop-shadow-[0_5px_10px_rgba(38,50,56,0.15)] z-40"
               />
                 <img src={images.yellowdot} alt="" className=" absolute 2xl:-right-10 2xl:-bottom-6 -z-0 xl:-right-6 xl:-bottom-8 lg:-bottom-8 lg:-right-10 sm:-bottom-10 sm:-right-8 -right-3 -bottom-3" />
             </div>

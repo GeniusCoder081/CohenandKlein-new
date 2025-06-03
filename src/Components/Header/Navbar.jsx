@@ -15,8 +15,8 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed top-0 z-50 w-full">
-      <div className="roboto md:block hidden bg-footerdownclr text-white px-4 sm:px-8 md:px-10 2xl:px-15 py-2">
+    <header className="sticky top-0 z-100 bg-white shadow">
+      <div className="roboto md:block hidden bg-footerdownclr text-white px-4 sm:px-8 md:px-10 2xl:px-15 py-1">
         <div className="flex flex-col md:flex-row flex-wrap justify-between items-center mx-auto text-center md:text-left">
           <div className="text-sm sm:text-base md:text-lg mb-2 md:mb-0">
             <div className="2xl:text-base sm:text-sm text-xs flex flex-col md:flex-row gap-2 md:gap-9 text-center md:text-left roboto-serif-font">
@@ -29,7 +29,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="text-center">
-            <Link className="2xl:text-base text-center  text-xs roboto-serif-font ">Strategic Human Capital Development Training Courses</Link>
+            <Link className="2xl:text-base text-center  text-xs roboto-serif-font midcontent">Strategic Human Capital Development Training Courses</Link>
           </div>
           <div className="flex flex-col sm:flex-row roboto-serif-font font-medium justify-center md:justify-between gap-4 sm:gap-6 md:gap-9">
             <Link to="#" className="flex gap-2.5 items-center">
@@ -77,13 +77,13 @@ const Navbar = () => {
         </div>
       </div>
       <div className="bg-primary w-full roboto">
-        <div className="px-4 sm:px-8 padding-2xl py-5 flex items-center justify-between">
+        <div className="px-4 sm:px-8 padding-2xl py-2 flex items-center justify-between">
           <div className="flex-shrink-0">
             <Link to="/">
               <img
                 src={images.logo2}
                 alt="Logo"
-                 className="w-[200px] md:w-[245px] lg:w-[280px] 2xl:w-[350px]"
+                 className="logowidth w-[200px] md:w-[225px] lg:w-[240px]"
               />
             </Link>
           </div>
@@ -146,7 +146,7 @@ const Navbar = () => {
               <img
                 src={images.logo2}
                 alt="Second Logo"
-                className="max-w-[180px] md:max-w-62.5 lg:max-w-87 rounded-[5px]"
+                className="w-[200px] md:w-[225px] lg:w-[250px] logowidth rounded-[5px]"
               />
             </Link>
           </div>

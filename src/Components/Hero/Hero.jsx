@@ -48,7 +48,7 @@ const Hero = () => {
 
   return (
     <div>
-      <div className="roboto flex padding-2xl lg:px-15 px-4 2xl:pt-10 mt-43 pt-12 sm:pb-22.5 pb-8 gap-27.5 justify-center items-center relative">
+      <div className="roboto flex padding-2xl lg:px-15 px-4 2xl:pt-10  pt-12 sm:pb-22.5 pb-8 gap-27.5 justify-center items-center relative">
         <div className="flex flex-col xl:gap-[50px] gap-8 justify-center items-center">
           <div className="flex justify-center items-center sm:py-8 sm:order-1 order-2">
             <div className="grid lg:grid-cols-4 grid-cols-2 gap-9 mx-auto">

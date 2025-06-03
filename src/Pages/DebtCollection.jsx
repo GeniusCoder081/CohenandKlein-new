@@ -26,7 +26,7 @@ const DebtCollection = () => {
 
 
   return (
-    <div className="roboto  mt-43 2xl:px-[130px] lg:px-15 sm:px-8 px-6 py-10">
+    <div className="roboto 2xl:px-[130px] lg:px-15 sm:px-8 px-6 py-10">
       <div className="flex gap-8">
         {/* Left Column (Scrollable) */}
         <div className="w-[430px] lg:flex hidden flex-col">

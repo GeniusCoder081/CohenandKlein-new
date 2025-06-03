@@ -628,63 +628,943 @@ const DebtCollData =[
 const NewsdataTest =[
   {
     id:1,
-    title:"CK 6488 Mortgage Loans, Real Estate Leasing, Debt Collections & Revenue Management Procedures"
+    title:"CK 6488 Mortgage Loans, Real Estate Leasing, Debt Collections & Revenue Management Procedures",
+     comments:[
+      {
+        id:1,
+        title1:"In this training program, the retention of employees was important to me, because our organization has never done an in-depth study to determine how to retain our most valuable resources.  I am incredibly happy that I attended this training program because it was very enlightening as well as informative, and highlighted areas that HR practitioners may take for granted.  The knowledge I picked up will be recommended to our upper management team for implementation.  Also because of my attendance, it will help me to improve my effectiveness and that of the entire HR department.",
+        disc:"The information was well presented by a deeply knowledgeable instructor who presented the material in an easily understandable way.  The instructor also used everyday examples to help us to understand concepts.",
+        title2:"Linda Fyfield, Human Resources Officer",
+        desc:"St. Christopher Air & Sea Ports (SCASPA), St. Kitts & Nevis"
+      },
+      {
+        id:2,
+        title1:"Employee empowerment correlates with my role as a HR Officer, which also includes employee engagement, strengthening leadership skills and setting clear goals and expectations.  These are the areas that were of most importance to me.  The program provided me with valuable insights to foster productivity in the workplace.  My attendance in this training program reinforced key HR strategies that will enhance employee motivation and workplace culture.",
+        disc:"The entire training was comprehensive, and there is nothing I would change about this program.  The instructor used visuals to enhance the training sessions, to support the concepts in the training manual.  I am very appreciative of the instructor’s delivery.  Also, the instructor presented the topics by using real-life examples and sought feedback from the participants to ensure we understood.  Finally, the sessions were engaging and captivating.",
+        title2:"Janelle Smithen, Human Resources Officer",
+        desc:"St. Christopher Air & Sea Ports (SCASPA), St. Kitts & Nevis"
+      },
+     ]
   },
   {
     id:2,
-    title:"CK 5100 Performance Review and Job Evaluation Management / CK 1400 Human Resources Management"
+    title:"CK 5100 Performance Review and Job Evaluation Management / CK 1400 Human Resources Management",
+       comments: [
+      {
+        id: 1,
+        title1:
+          "The instructor was quite informed and knowledgeable about the topics discussed in this program — I learned a lot about the dynamics of human resources management. By attending this course, it will help me to be more engaging with the staff I supervise. Also, it will also help me improve my performance as a supervisor, and the ways in which I communicate with everyone.",
+        title2: "Janetta Samuel-White, Assistant Accountant",
+        desc: "Government of Montserrat, Montserrat",
+      },
+      {
+        id: 2,
+        title1:
+          "Succession planning is a topic that was of most significance to me, as this type of planning is desperately needed in the human resources department, as well as other areas within my organization. As such, it was a very interesting and informative workshop that could benefit other human resources practitioners.This training program has allowed me to identify several areas of weaknesses in my organization.",
+        title2: "Merylann Cato-Francis, Human Resources Officer,",
+        desc: "National Insurance Scheme, St. George’s, Grenada",
+      },
+    ],
   },
   {
     id:3,
-    title:"CK 6768 Leadership & Supervisory Management Procedures for Managers and Supervisors"
+    title:"CK 6768 Leadership & Supervisory Management Procedures for Managers and Supervisors",
+     comments:[
+      {
+        id:1,
+        title1:" All areas of the training program was not only informative and interactive, but invaluable to me.  It has taught me some techniques to implement more leadership qualities and being more sensitive and listen to my staff. Also, the training allowed me to recognize many areas where I can improve.  It also has taught me alternative ways to managing and developing myself and my staff",
+        disc:"The course was very interactive with real-life situations and examples shared by participants and facilitator.  I especially liked that the facilitator asked for feedback to reinforce the material, and he answered all questions with clear and concise answers.  I definitely would like to attend other training programs conducted by this instructor as he made the sessions interesting so much so that I didn’t realize the time.  I wished that the sessions were longer; I learned a lot and can certainly improve and implement the lessons learned.",
+        title2:"M. Patricia Bass, Manager, Legal Unit,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts"
+      },
+      {
+        id:2,
+        title1:"My big take-away from this training program was that for one to be effective as a leader, one must display effective communication and the willingness to accept responsibility for one’s actions.  This course will help me to motivate my staff.  This training course had many useful and helpful advice that is relevant to my job role and responsibilities.",
+        title2:"Olivia Benjamin, Senior Officer, Sandy Point Branch, ",
+        desc:" St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+       {
+        id:3,
+        title1:"I enjoyed the discussion and examples which tied everything together!  It was informative and well presented.  The program allowed me to identify my weaknesses and gave me guidelines and assurances as to how some challenges can be overcome.",
+        title2:" Byron Enes, Senior Officer, Bank Cards Division, ",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+      {
+        id:4,
+        title1:"As a manager-in-training, all areas of this course was valuable to me.  I found the information beneficial to my department and will implement what I have learnt.  The information was well received and timely.I found that because of the instructor’s use of real-life experiences, it made the program effective and well done!",
+        title2:"Donelle Caines, Senior Officer, Accounts Department,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+      {
+        id:5,
+        title1:"The information provided in this training program, could benefit our entire organization as a whole.  It would help managers/supervisors to improve the way they lead and manager others.The instructor was very organized and provided many real-life examples to the group of participants.  He was very enthusiastic, engaged and knowledgeable.",
+        title2:"Almon Crooke, Manager, Credit Division,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+  {
+        id:6,
+        title1:"Different leadership styles highlighted for me, my shortcomings as a leader, as well as the areas I need to “brush-up” on  This program will help me to gauge and measure how I provide feedback to my staff. This training program should seek to target more senior officers within the organization to motivate and build a transformative organization.",
+        title2:"Rinay Hobson, Manager, Legal Unit,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+      {
+        id:7,
+        title1:"Time management and motivation of staff were the two areas that were of great value to me.  Time management will assist me in identifying different situations at work, thus allowing me to take a step back and review my management style. The instructor was very knowledgeable about the topics and I was able to break down complex topics in a such a way that was local to our environment and easily understand.",
+        title2:"Alden Isaac, Manager, MIS Unit, ",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+      {
+        id:8,
+        title1:"The area on conflict resolution was most valuable to me as this area is quite challenging for me.  Many techniques to overcome barriers, and how to minimize conflict and deal with it.  The program was very insightful and managers as well as potential mangers can sharpen his/her skills to improve his/herself.  I will be mindful of this training that I received, and try to be fair to my employees, and manage with integrity.The instructor’s teaching style was not boring as he kept participants engaged and gave true-to-life examples that we could all relate.  I would attend other training programs with this instructor as he is knowledgeable and enthusiastic in his teaching style.",
+        title2:"Angelica Lewis, Manager, Comptroller Division,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+ {
+        id:9,
+        title1:"The entire program was really good.  It was very informative, and I feel well-prepared to become a manager/supervisor.  The program taught me many useful and applicable tools I can use now and in the future.The instructor was very knowledgeable and kept my interest and attention throughout the entire program.",
+        title2:"Orngel Battice, Partner Sales Manager",
+        desc:" St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts ",
+      },
+      {
+        id:10,
+        title1:" The leadership part of the program was of most importance to me.  I know now how to be a better leader/supervisor, and effectively manage the staff.  I will try to incorporate most of what I learnt from the training, to my job in order to improve my department.The instructor’s teaching method was effective.  He is very knowledgeable in all areas of the subject matter.",
+        title2:"Sheldene Smithen, Senior Officer, Operations & Processing Department,",
+        desc:" St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+         {
+        id:11,
+        title1:"The training was timely.  It will assist me in working on my leadership skills and identify areas in which I need to improve. Many persons have been placed in leadership positions without the appropriate training and are expected to exhibit a particular level of performance – this training bridges that gap!  I feel that I am now equipped with additional tools, resources and information to improve my management skills.The instructor was very candid and used a lot of his personal experiences to make the training applicable not just to the “workplace,” but leadership and management skills used in everyday life.  Learning is easy with Mr. Nethersole as the instructor!",
+        title2:"Atasha Syder, Manager, Private Banking Department, ",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+         {
+        id:12,
+        title1:"Communication and leadership styles were the areas that were of most interest to me.  The content was applicable and senior management needs to be trained on how to be successful.I loved the instructor’s enthusiasm and his knowledge of the subject matter.",
+        title2:"Esther Thomas, Manager, Internal Audit & Enforcement Unit,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+   {
+        id:13,
+        title1:"Understanding the importance of effective communication was of great importance to me.  The information provided was useful and applicable to my daily work life.  I will definitely use the tips for conducting performance appraisals.  The information on leadership will be well utilized.",
+        title2:"Petronella Wade, Manager, Nevis Branch,",
+        desc:" St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+         {
+        id:14,
+        title1:"The different styles of management, for example: directive, influential, collaborative and delegative are all useful aspects in being a great leader.  I wouldn’t change a thing about this excellent training program.",
+        title2:"Jaemou Weeks, Manager, Electronic Banking Department,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+         {
+        id:15,
+        title1:"The open discussions on the various topics, while sharing real-life examples with other participants, were of most value to me.  The program exposed supervisors and managers to very important knowledge and skills to effectively lead and manage his or her subordinates.I am now equipped with the skills and qualities needed to be an effective manager.  I have learnt the “do’s” and “don’ts” of managing and leading and I will try to avoid the underlying mistakes that new managers make.",
+        title2:"Deborah Williams, Senior Officer, International Business Department,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+         {
+        id:16,
+        title1:"The leadership training will be beneficial in helping me to apply new techniques and styles.The instructor’s style is very unique – he is a great presenter!",
+        title2:"Craig Zakers, Manager, Risk and Compliance Unit,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+     {
+        id:17,
+        title1:"Effective management and leadership skills are very important tools to have, and the information I gleaned from this workshop is essential for all managers. The program also provided a wealth of knowledge to improve my skills as a manager which will make me more effective.I thoroughly enjoyed the instructor’s teaching style and the use of real-life experiences to support the information given to the participants.",
+        title2:"Name Withheld, Senior Officer,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+         {
+        id:18,
+        title1:"The part of the training program I valued most was the first-hand experiences and knowledge from the facilitator.  This enabled the instructor to provide valuation information and adequate answers to questions.  I will be able to utilize the techniques and methods to effectively manage my organizational resources.",
+        title2:"Name Withheld, ",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+         {
+        id:19,
+        title1:"The entire program was valuable, and the content was excellent!  I have developed a better understanding of performance appraisals and the best way to conduct future ones.The instructor was vibrant and interactive, and used great examples that were relevant to the topics.",
+        title2:"Name Withheld,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+         {
+        id:20,
+        title1:"I learned about different techniques that can be employed in my daily work responsibilities to become a more efficient manager/supervisor.  It added value to aspiring and already-existing managers within the organization.  I will implement different strategies and techniques to motivate and inspire my employees.The instructor’s teaching style was informative as well as charismatic.",
+        title2:"Name Withheld,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, St. Kitts",
+      },
+
+     ]
   },
   {
     id:4,
-    title:"CK 6767 Leadership and Strategic Management for Managers and Supervisors"
+    title:"CK 6767 Leadership and Strategic Management for Managers and Supervisors",
+     comments:[
+      {
+        id:1,
+        title1:"All areas of this course was relevant to me, and the manual of information that I received will be vitally important to survival in our organization.The instructor’s enthusiasm was notable, and ensured that each participant understood the information shared. ",
+        title2:"Valencia Wilkinson, Finance Manager, ",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, Basseterre, St. Kitts"
+      },
+      {
+        id:2,
+        title1:"This training program far surpassed my expectations.  It was very thought-provoking and left me with several tips and techniques I can use to improve the efficiency of my department.  I gained a lot of valuable information to effectively lead a team, and a clearer and better understanding of team dynamics. The instructor is “gifted” and quite knowledgeable about the topics and he kept everyone fully engaged.",
+        title2:"Sandra Richardson, Risk & Compliance Senior Manager,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, Basseterre, St. Kitts",
+      },
+      {
+        id:3,
+        title1:"I enjoyed the lessons on leadership styles, strategic management, and performance management.  All supervisors, managers, and top managers should have an opportunity to attend this training program. Currently, I am not supervising anyone, however the areas on cross-training, mentoring, leadership skills and time management are areas I can work on.I propose that this seminar be given to top management as well.",
+        disc:"The instructor imparted useful and valuable information that was timely and well-needed.",
+        title2:" Name Withheld,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, Basseterre, St. Kitts",
+      },
+      {
+        id:4,
+        title1:"Performance measurement was what piqued my interest most of all.  This is critical to my area of work.  In general, every part of this training program was beneficial and applicable to me.  It will improve my knowledge and skills in various areas that has given me an appreciation for some of the ideas I may not have considered.The instructor’s teaching style was exceptional.  He simplified terms and expounded on concepts, while giving practical examples.  He also created a relaxed atmosphere which encouraged participation.",
+        title2:"Name Withheld, Manager, Finance Division, ",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, Basseterre, St. Kitts",
+      },
+      {
+        id:5,
+        title1:"Overall, the entire training program was essential and has changed my approach to leadership and teamwork.",
+        title2:"Name Withheld, Manager,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, Basseterre, St. Kitts",
+      },
+      {
+        id:6,
+        title1:"I gained a better understanding of the importance of performance appraisals and teamwork/collaboration.  I would recommend this training program to directors and senior management personnel.",
+        title2:"Name Withheld, Manager,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, Basseterre, St. Kitts",
+      },
+      {
+        id:7,
+        title1:"This program should be offered to heads of departments, senior managers, CEOS and Board of Directors.",
+        title2:"Name Withheld, Loans Manager, Credit Division, ",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, Basseterre, St. Kitts",
+      },
+      {
+        id:8,
+        title1:"All areas of this program especially leadership, and strategic management, were of importance to me.  I will work on my leadership skills to become a better manager.",
+        title2:"Name Withheld, Manager, Finance Division,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, Basseterre, St. Kitts",
+      },
+      {
+        id:9,
+        title1:"This training program was very appropriate and relevant to my work.  The information was very practical, and I intend to use the knowledge gained in my daily workplace.The instructor’s style was very interactive and kept all of us engaged.  I would like to attend more teambuilding courses that will help my department.",
+        title2:"Name Withheld, ",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, Basseterre, St. Kitts",
+      },
+      {
+        id:10,
+        title1:"The program was of great value to me.  It not only enhanced my knowledge, but updated my skills as a manager.  I have gained valuable insights that will help me to motivate and empower my employees.  I will be more ready to encourage feedback from staff members, and improve my skillset to be a better manager.The instructor was passionate and lively in his delivery of topical information  He combined theory of subject with real-life examples.",
+        title2:"Name Withheld, ",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, Basseterre, St. Kitts",
+      },
+      {
+        id:11,
+        title1:"The program was very informative, engaging, and educational. The instructor highlighted a lot of areas that I can use to improve my management skills and motive employees.The training instructor was very knowledgeable and a very good presenter.",
+        title2:"Name Withheld,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, Basseterre, St. Kitts",
+      },
+      {
+        id:12,
+        title1:"This training program was well-timed and well-needed..  The program will help me in coaching and mentoring my staff to improve efficiency and effectiveness.",
+        title2:"Joseph E. Halleday, MIS Network Administrator,",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, Basseterre, St. Kitts",
+      },
+      {
+        id:13,
+        title1:"The concepts and principles outlined in the workshop represented a good reminder of what a properly functioning institution should work towards. ",
+        title2:"Name Withheld,",
+        desc:" St. Kitts-Nevis-Anguilla National Bank Limited, Basseterre, St. Kitts",
+      },
+      {
+        id:14,
+        title1:"Leadership and performance management were areas of great interest for me.  I believe that senior management should be included in this training.The instructor was quite informative and very knowledgeable",
+        title2:"Name Withheld, ",
+        desc:"St. Kitts-Nevis-Anguilla National Bank Limited, Basseterre, St. Kitts",
+      }
+]
   },
   {
     id:5,
-    title:"CK 6812 Succession Planning & Talent Management Procedures for Human Resources Practitioners"
+    title:"CK 6812 Succession Planning & Talent Management Procedures for Human Resources Practitioners",
+     comments:[
+      {
+        id:1,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits ",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association"
+      },
+      {
+        id:2,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla ",
+      },
+      {
+        id:3,
+        title1:"The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:" Kira Thompson-Aird, Communications & Training Manager, H.H.V. ",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+      {
+        id:4,
+        title1:"The instructor displayed a high knowledge of the program and was able to present it in a user friendly manner.",
+        title2:"Vanessa L. Ryan, Retail Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:5,
+        title1:"The instructor was great. He explained everything quite clearly to the class.” ",
+        title2:"Heston Hamm, Marketing Manager,",
+        desc:"Contec-Construction Technologies, Basseterre, St. Kitts",
+      },
+      {
+        id:6,
+        title1:"I would do further training with this instruction as he was very effective with his presentation.",
+        title2:"Vincia Hodge, Credit Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:7,
+        title1:"This program gave me quite a bit of information on customer service awareness and techniques which every organization needs for their success.",
+        title2:"Annmarie Le’Tang, Customer Service Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:8,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association",
+      },
+      {
+        id:9,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:10,
+        title1:" The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:"Kira Thompson-Aird, Communications & Training Manager, H.H.V",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+     ]
   },
   {
     id:6,
-    title:"CK 600 Debt Collections And Revenue Management Procedures For Managers And Supervisors"
+    title:"CK 600 Debt Collections And Revenue Management Procedures For Managers And Supervisors",
+     comments:[
+      {
+        id:1,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits ",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association"
+      },
+      {
+        id:2,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla ",
+      },
+      {
+        id:3,
+        title1:"The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:" Kira Thompson-Aird, Communications & Training Manager, H.H.V. ",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+      {
+        id:4,
+        title1:"The instructor displayed a high knowledge of the program and was able to present it in a user friendly manner.",
+        title2:"Vanessa L. Ryan, Retail Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:5,
+        title1:"The instructor was great. He explained everything quite clearly to the class.” ",
+        title2:"Heston Hamm, Marketing Manager,",
+        desc:"Contec-Construction Technologies, Basseterre, St. Kitts",
+      },
+      {
+        id:6,
+        title1:"I would do further training with this instruction as he was very effective with his presentation.",
+        title2:"Vincia Hodge, Credit Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:7,
+        title1:"This program gave me quite a bit of information on customer service awareness and techniques which every organization needs for their success.",
+        title2:"Annmarie Le’Tang, Customer Service Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:8,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association",
+      },
+      {
+        id:9,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:10,
+        title1:" The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:"Kira Thompson-Aird, Communications & Training Manager, H.H.V",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+     ]
   },
   {
     id:7,
-    title:"CK 600 Debt Collections And Revenue Management Procedures For Managers And Supervisors"
+    title:"CK 600 Debt Collections And Revenue Management Procedures For Managers And Supervisors",
+     comments:[
+      {
+        id:1,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits ",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association"
+      },
+      {
+        id:2,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla ",
+      },
+      {
+        id:3,
+        title1:"The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:" Kira Thompson-Aird, Communications & Training Manager, H.H.V. ",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+      {
+        id:4,
+        title1:"The instructor displayed a high knowledge of the program and was able to present it in a user friendly manner.",
+        title2:"Vanessa L. Ryan, Retail Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:5,
+        title1:"The instructor was great. He explained everything quite clearly to the class.” ",
+        title2:"Heston Hamm, Marketing Manager,",
+        desc:"Contec-Construction Technologies, Basseterre, St. Kitts",
+      },
+      {
+        id:6,
+        title1:"I would do further training with this instruction as he was very effective with his presentation.",
+        title2:"Vincia Hodge, Credit Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:7,
+        title1:"This program gave me quite a bit of information on customer service awareness and techniques which every organization needs for their success.",
+        title2:"Annmarie Le’Tang, Customer Service Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:8,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association",
+      },
+      {
+        id:9,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:10,
+        title1:" The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:"Kira Thompson-Aird, Communications & Training Manager, H.H.V",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+     ]
   },
   {
     id:8,
-    title:"CK 1400 Human Resources Management"
+    title:"CK 1400 Human Resources Management",
+    pdf:CoursePdf.sometopicpdf,
+   comments:[
+      {
+        id:1,
+        title1:"In this training program, the retention of employees was important to me, because our organization has never done an in-depth study to determine how to retain our most valuable resources.  I am incredibly happy that I attended this training program because it was very enlightening as well as informative, and highlighted areas that HR practitioners may take for granted.  The knowledge I picked up will be recommended to our upper management team for implementation.  Also because of my attendance, it will help me to improve my effectiveness and that of the entire HR department.",
+        disc:"The information was well presented by a deeply knowledgeable instructor who presented the material in an easily understandable way.  The instructor also used everyday examples to help us to understand concepts.",
+        title2:"Linda Fyfield, Human Resources Officer",
+        desc:"St. Christopher Air & Sea Ports (SCASPA), St. Kitts & Nevis"
+      },
+      {
+        id:2,
+        title1:"Employee empowerment correlates with my role as a HR Officer, which also includes employee engagement, strengthening leadership skills and setting clear goals and expectations.  These are the areas that were of most importance to me.  The program provided me with valuable insights to foster productivity in the workplace.  My attendance in this training program reinforced key HR strategies that will enhance employee motivation and workplace culture.",
+        disc:"The entire training was comprehensive, and there is nothing I would change about this program.  The instructor used visuals to enhance the training sessions, to support the concepts in the training manual.  I am very appreciative of the instructor’s delivery.  Also, the instructor presented the topics by using real-life examples and sought feedback from the participants to ensure we understood.  Finally, the sessions were engaging and captivating.",
+        title2:"Janelle Smithen, Human Resources Officer",
+        desc:"St. Christopher Air & Sea Ports (SCASPA), St. Kitts & Nevis"
+      },
+     ]
   },
   {
     id:9,
-    title:"CK 1800 Customer Service And Communication Techniques"
+    title:"CK 1800 Customer Service And Communication Techniques",
+     comments:[
+      {
+        id:1,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits ",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association"
+      },
+      {
+        id:2,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla ",
+      },
+      {
+        id:3,
+        title1:"The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:" Kira Thompson-Aird, Communications & Training Manager, H.H.V. ",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+      {
+        id:4,
+        title1:"The instructor displayed a high knowledge of the program and was able to present it in a user friendly manner.",
+        title2:"Vanessa L. Ryan, Retail Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:5,
+        title1:"The instructor was great. He explained everything quite clearly to the class.” ",
+        title2:"Heston Hamm, Marketing Manager,",
+        desc:"Contec-Construction Technologies, Basseterre, St. Kitts",
+      },
+      {
+        id:6,
+        title1:"I would do further training with this instruction as he was very effective with his presentation.",
+        title2:"Vincia Hodge, Credit Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:7,
+        title1:"This program gave me quite a bit of information on customer service awareness and techniques which every organization needs for their success.",
+        title2:"Annmarie Le’Tang, Customer Service Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:8,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association",
+      },
+      {
+        id:9,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:10,
+        title1:" The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:"Kira Thompson-Aird, Communications & Training Manager, H.H.V",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+     ]
   },
   {
     id:10,
-    title:"CK 2004 Coaching, Mentoring & Team-building Techniques For Managers & Supervisors"
+    title:"CK 2004 Coaching, Mentoring & Team-building Techniques For Managers & Supervisors",
+     comments:[
+      {
+        id:1,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits ",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association"
+      },
+      {
+        id:2,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla ",
+      },
+      {
+        id:3,
+        title1:"The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:" Kira Thompson-Aird, Communications & Training Manager, H.H.V. ",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+      {
+        id:4,
+        title1:"The instructor displayed a high knowledge of the program and was able to present it in a user friendly manner.",
+        title2:"Vanessa L. Ryan, Retail Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:5,
+        title1:"The instructor was great. He explained everything quite clearly to the class.” ",
+        title2:"Heston Hamm, Marketing Manager,",
+        desc:"Contec-Construction Technologies, Basseterre, St. Kitts",
+      },
+      {
+        id:6,
+        title1:"I would do further training with this instruction as he was very effective with his presentation.",
+        title2:"Vincia Hodge, Credit Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:7,
+        title1:"This program gave me quite a bit of information on customer service awareness and techniques which every organization needs for their success.",
+        title2:"Annmarie Le’Tang, Customer Service Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:8,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association",
+      },
+      {
+        id:9,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:10,
+        title1:" The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:"Kira Thompson-Aird, Communications & Training Manager, H.H.V",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+     ]
   },
   {
     id:11,
-    title:"CK 600 Debt Collections And Revenue Management Procedures For Managers And Supervisors"
+    title:"CK 600 Debt Collections And Revenue Management Procedures For Managers And Supervisors",
+     comments:[
+      {
+        id:1,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits ",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association"
+      },
+      {
+        id:2,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla ",
+      },
+      {
+        id:3,
+        title1:"The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:" Kira Thompson-Aird, Communications & Training Manager, H.H.V. ",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+      {
+        id:4,
+        title1:"The instructor displayed a high knowledge of the program and was able to present it in a user friendly manner.",
+        title2:"Vanessa L. Ryan, Retail Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:5,
+        title1:"The instructor was great. He explained everything quite clearly to the class.” ",
+        title2:"Heston Hamm, Marketing Manager,",
+        desc:"Contec-Construction Technologies, Basseterre, St. Kitts",
+      },
+      {
+        id:6,
+        title1:"I would do further training with this instruction as he was very effective with his presentation.",
+        title2:"Vincia Hodge, Credit Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:7,
+        title1:"This program gave me quite a bit of information on customer service awareness and techniques which every organization needs for their success.",
+        title2:"Annmarie Le’Tang, Customer Service Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:8,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association",
+      },
+      {
+        id:9,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:10,
+        title1:" The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:"Kira Thompson-Aird, Communications & Training Manager, H.H.V",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+     ]
   },
   {
     id:12,
-    title:"CK 700: Debt Collection Strategies & Techniques For New & Experienced Collectors"
+    title:"CK 700: Debt Collection Strategies & Techniques For New & Experienced Collectors",
+     comments:[
+      {
+        id:1,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits ",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association"
+      },
+      {
+        id:2,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla ",
+      },
+      {
+        id:3,
+        title1:"The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:" Kira Thompson-Aird, Communications & Training Manager, H.H.V. ",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+      {
+        id:4,
+        title1:"The instructor displayed a high knowledge of the program and was able to present it in a user friendly manner.",
+        title2:"Vanessa L. Ryan, Retail Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:5,
+        title1:"The instructor was great. He explained everything quite clearly to the class.” ",
+        title2:"Heston Hamm, Marketing Manager,",
+        desc:"Contec-Construction Technologies, Basseterre, St. Kitts",
+      },
+      {
+        id:6,
+        title1:"I would do further training with this instruction as he was very effective with his presentation.",
+        title2:"Vincia Hodge, Credit Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:7,
+        title1:"This program gave me quite a bit of information on customer service awareness and techniques which every organization needs for their success.",
+        title2:"Annmarie Le’Tang, Customer Service Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:8,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association",
+      },
+      {
+        id:9,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:10,
+        title1:" The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:"Kira Thompson-Aird, Communications & Training Manager, H.H.V",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+     ]
   },
   {
     id:13,
-    title:"CK 700: Government Revenue And Tax Collections Strategies And Techniques"
+    title:"CK 700: Government Revenue And Tax Collections Strategies And Techniques",
+     comments:[
+      {
+        id:1,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits ",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association"
+      },
+      {
+        id:2,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla ",
+      },
+      {
+        id:3,
+        title1:"The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:" Kira Thompson-Aird, Communications & Training Manager, H.H.V. ",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+      {
+        id:4,
+        title1:"The instructor displayed a high knowledge of the program and was able to present it in a user friendly manner.",
+        title2:"Vanessa L. Ryan, Retail Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:5,
+        title1:"The instructor was great. He explained everything quite clearly to the class.” ",
+        title2:"Heston Hamm, Marketing Manager,",
+        desc:"Contec-Construction Technologies, Basseterre, St. Kitts",
+      },
+      {
+        id:6,
+        title1:"I would do further training with this instruction as he was very effective with his presentation.",
+        title2:"Vincia Hodge, Credit Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:7,
+        title1:"This program gave me quite a bit of information on customer service awareness and techniques which every organization needs for their success.",
+        title2:"Annmarie Le’Tang, Customer Service Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:8,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association",
+      },
+      {
+        id:9,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:10,
+        title1:" The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:"Kira Thompson-Aird, Communications & Training Manager, H.H.V",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+     ]
   },
   {
     id:14,
-    title:"CK 700: Debt Collection Strategies For New And Experienced Collectors"
+    title:"CK 700: Debt Collection Strategies For New And Experienced Collectors",
+     comments:[
+      {
+        id:1,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits ",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association"
+      },
+      {
+        id:2,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla ",
+      },
+      {
+        id:3,
+        title1:"The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:" Kira Thompson-Aird, Communications & Training Manager, H.H.V. ",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+      {
+        id:4,
+        title1:"The instructor displayed a high knowledge of the program and was able to present it in a user friendly manner.",
+        title2:"Vanessa L. Ryan, Retail Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:5,
+        title1:"The instructor was great. He explained everything quite clearly to the class.” ",
+        title2:"Heston Hamm, Marketing Manager,",
+        desc:"Contec-Construction Technologies, Basseterre, St. Kitts",
+      },
+      {
+        id:6,
+        title1:"I would do further training with this instruction as he was very effective with his presentation.",
+        title2:"Vincia Hodge, Credit Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:7,
+        title1:"This program gave me quite a bit of information on customer service awareness and techniques which every organization needs for their success.",
+        title2:"Annmarie Le’Tang, Customer Service Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:8,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association",
+      },
+      {
+        id:9,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:10,
+        title1:" The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:"Kira Thompson-Aird, Communications & Training Manager, H.H.V",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+     ]
   },
   {
     id:15,
-    title:"CK 700: Debt Collection & Revenue Management For Public & Private Sector Corporation"
+    title:"CK 700: Debt Collection & Revenue Management For Public & Private Sector Corporation",
+     comments:[
+      {
+        id:1,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits ",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association"
+      },
+      {
+        id:2,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla ",
+      },
+      {
+        id:3,
+        title1:"The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:" Kira Thompson-Aird, Communications & Training Manager, H.H.V. ",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+      {
+        id:4,
+        title1:"The instructor displayed a high knowledge of the program and was able to present it in a user friendly manner.",
+        title2:"Vanessa L. Ryan, Retail Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:5,
+        title1:"The instructor was great. He explained everything quite clearly to the class.” ",
+        title2:"Heston Hamm, Marketing Manager,",
+        desc:"Contec-Construction Technologies, Basseterre, St. Kitts",
+      },
+      {
+        id:6,
+        title1:"I would do further training with this instruction as he was very effective with his presentation.",
+        title2:"Vincia Hodge, Credit Manager,",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:7,
+        title1:"This program gave me quite a bit of information on customer service awareness and techniques which every organization needs for their success.",
+        title2:"Annmarie Le’Tang, Customer Service Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:8,
+        title1:"This program dealt with the core of customer service. If participants follow through with what has been taught, their company will reap great benefits",
+        title2:"Camelita Morris, Executive Secretary",
+        desc:"St. Vincent Building & Loan Association",
+      },
+      {
+        id:9,
+        title1:"I would do further training with this instructor because he is a good listener and is very informative and knowledgeable",
+        title2:"Orngel Battice, Partner Sales Manager",
+        desc:"Cable & Wireless, Anguilla, The Valley, Anguilla",
+      },
+      {
+        id:10,
+        title1:" The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title2:"Kira Thompson-Aird, Communications & Training Manager, H.H.V",
+        desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
+      },
+     ]
   },
   {
     id:16,
@@ -1274,7 +2154,23 @@ const NewsdataTest =[
   },
   {
     id:40,
-    title:"Florida – CK 1400 Human Resources Management"
+    title:"Florida – CK 1400 Human Resources Management",
+    comments:[
+      {
+        id:1,
+        title1:"In this training program, the retention of employees was important to me, because our organization has never done an in-depth study to determine how to retain our most valuable resources.  I am incredibly happy that I attended this training program because it was very enlightening as well as informative, and highlighted areas that HR practitioners may take for granted.  The knowledge I picked up will be recommended to our upper management team for implementation.  Also because of my attendance, it will help me to improve my effectiveness and that of the entire HR department.",
+        disc:"The information was well presented by a deeply knowledgeable instructor who presented the material in an easily understandable way.  The instructor also used everyday examples to help us to understand concepts.",
+        title2:"Linda Fyfield, Human Resources Officer",
+        desc:"St. Christopher Air & Sea Ports (SCASPA), St. Kitts & Nevis"
+      },
+      {
+        id:2,
+        title1:"Employee empowerment correlates with my role as a HR Officer, which also includes employee engagement, strengthening leadership skills and setting clear goals and expectations.  These are the areas that were of most importance to me.  The program provided me with valuable insights to foster productivity in the workplace.  My attendance in this training program reinforced key HR strategies that will enhance employee motivation and workplace culture.",
+        disc:"The entire training was comprehensive, and there is nothing I would change about this program.  The instructor used visuals to enhance the training sessions, to support the concepts in the training manual.  I am very appreciative of the instructor’s delivery.  Also, the instructor presented the topics by using real-life examples and sought feedback from the participants to ensure we understood.  Finally, the sessions were engaging and captivating.",
+        title2:"Janelle Smithen, Human Resources Officer",
+        desc:"St. Christopher Air & Sea Ports (SCASPA), St. Kitts & Nevis"
+      },
+     ]
   },
   {
     id:41,
@@ -1326,7 +2222,23 @@ const NewsdataTest =[
   },
   {
     id:53,
-    title:"Antigua – CK 1400 Human Resources Management"
+    title:"Antigua – CK 1400 Human Resources Management",
+    comments:[
+      {
+        id:1,
+        title1:"In this training program, the retention of employees was important to me, because our organization has never done an in-depth study to determine how to retain our most valuable resources.  I am incredibly happy that I attended this training program because it was very enlightening as well as informative, and highlighted areas that HR practitioners may take for granted.  The knowledge I picked up will be recommended to our upper management team for implementation.  Also because of my attendance, it will help me to improve my effectiveness and that of the entire HR department.",
+        disc:"The information was well presented by a deeply knowledgeable instructor who presented the material in an easily understandable way.  The instructor also used everyday examples to help us to understand concepts.",
+        title2:"Linda Fyfield, Human Resources Officer",
+        desc:"St. Christopher Air & Sea Ports (SCASPA), St. Kitts & Nevis"
+      },
+      {
+        id:2,
+        title1:"Employee empowerment correlates with my role as a HR Officer, which also includes employee engagement, strengthening leadership skills and setting clear goals and expectations.  These are the areas that were of most importance to me.  The program provided me with valuable insights to foster productivity in the workplace.  My attendance in this training program reinforced key HR strategies that will enhance employee motivation and workplace culture.",
+        disc:"The entire training was comprehensive, and there is nothing I would change about this program.  The instructor used visuals to enhance the training sessions, to support the concepts in the training manual.  I am very appreciative of the instructor’s delivery.  Also, the instructor presented the topics by using real-life examples and sought feedback from the participants to ensure we understood.  Finally, the sessions were engaging and captivating.",
+        title2:"Janelle Smithen, Human Resources Officer",
+        desc:"St. Christopher Air & Sea Ports (SCASPA), St. Kitts & Nevis"
+      },
+     ]
   },
   {
     id:54,
@@ -1356,22 +2268,38 @@ const NewsdataTest =[
     id:60,
     title:"Turks & Caicos – CK 6283 Climate Change & Global Warming Management Procedures"
   },
-  {
-    id:61,
-    title:"Florida – CK 1400B Advanced Human Resources Management"
-  },
-  {
-    id:62,
-    title:"Florida – CK 1400B Advanced Human Resources Management"
-  },
+  // {
+  //   id:61,
+  //   title:"Florida – CK 1400B Advanced Human Resources Management"
+  // },
+  // {
+  //   id:62,
+  //   title:"Florida – CK 1400B Advanced Human Resources Management"
+  // },
   {
     id:63,
     title:"Florida – CK 6153 Leadership and Communication Management"
   },
-  {
-    id:64,
-    title:"Florida – CK 1400 Human Resources Management"
-  },
+  // {
+  //   id:64,
+  //   title:"Florida – CK 1400 Human Resources Management",
+  //   comments:[
+  //     {
+  //       id:1,
+  //       title1:"In this training program, the retention of employees was important to me, because our organization has never done an in-depth study to determine how to retain our most valuable resources.  I am incredibly happy that I attended this training program because it was very enlightening as well as informative, and highlighted areas that HR practitioners may take for granted.  The knowledge I picked up will be recommended to our upper management team for implementation.  Also because of my attendance, it will help me to improve my effectiveness and that of the entire HR department.",
+  //       disc:"The information was well presented by a deeply knowledgeable instructor who presented the material in an easily understandable way.  The instructor also used everyday examples to help us to understand concepts.",
+  //       title2:"Linda Fyfield, Human Resources Officer",
+  //       desc:"St. Christopher Air & Sea Ports (SCASPA), St. Kitts & Nevis"
+  //     },
+  //     {
+  //       id:2,
+  //       title1:"Employee empowerment correlates with my role as a HR Officer, which also includes employee engagement, strengthening leadership skills and setting clear goals and expectations.  These are the areas that were of most importance to me.  The program provided me with valuable insights to foster productivity in the workplace.  My attendance in this training program reinforced key HR strategies that will enhance employee motivation and workplace culture.",
+  //       disc:"The entire training was comprehensive, and there is nothing I would change about this program.  The instructor used visuals to enhance the training sessions, to support the concepts in the training manual.  I am very appreciative of the instructor’s delivery.  Also, the instructor presented the topics by using real-life examples and sought feedback from the participants to ensure we understood.  Finally, the sessions were engaging and captivating.",
+  //       title2:"Janelle Smithen, Human Resources Officer",
+  //       desc:"St. Christopher Air & Sea Ports (SCASPA), St. Kitts & Nevis"
+  //     },
+  //    ]
+  // },
   {
     id:65,
     title:"Bahamas – CK 5600A Customer Service and Call Center Procedures for Customer Service"
@@ -1478,7 +2406,23 @@ const NewsdataTest =[
   },
   {
     id:91,
-    title:"Florida – CK 1400 Human Resources Management"
+    title:"Florida – CK 1400 Human Resources Management",
+    comments:[
+      {
+        id:1,
+        title1:"In this training program, the retention of employees was important to me, because our organization has never done an in-depth study to determine how to retain our most valuable resources.  I am incredibly happy that I attended this training program because it was very enlightening as well as informative, and highlighted areas that HR practitioners may take for granted.  The knowledge I picked up will be recommended to our upper management team for implementation.  Also because of my attendance, it will help me to improve my effectiveness and that of the entire HR department.",
+        disc:"The information was well presented by a deeply knowledgeable instructor who presented the material in an easily understandable way.  The instructor also used everyday examples to help us to understand concepts.",
+        title2:"Linda Fyfield, Human Resources Officer",
+        desc:"St. Christopher Air & Sea Ports (SCASPA), St. Kitts & Nevis"
+      },
+      {
+        id:2,
+        title1:"Employee empowerment correlates with my role as a HR Officer, which also includes employee engagement, strengthening leadership skills and setting clear goals and expectations.  These are the areas that were of most importance to me.  The program provided me with valuable insights to foster productivity in the workplace.  My attendance in this training program reinforced key HR strategies that will enhance employee motivation and workplace culture.",
+        disc:"The entire training was comprehensive, and there is nothing I would change about this program.  The instructor used visuals to enhance the training sessions, to support the concepts in the training manual.  I am very appreciative of the instructor’s delivery.  Also, the instructor presented the topics by using real-life examples and sought feedback from the participants to ensure we understood.  Finally, the sessions were engaging and captivating.",
+        title2:"Janelle Smithen, Human Resources Officer",
+        desc:"St. Christopher Air & Sea Ports (SCASPA), St. Kitts & Nevis"
+      },
+     ]
   },
   {
     id:92,
@@ -1522,7 +2466,23 @@ const NewsdataTest =[
   },
   {
     id:102,
-    title:"St. Kitts – CK 1400 Human Resources Management "
+    title:"St. Kitts – CK 1400 Human Resources Management ",
+    comments:[
+      {
+        id:1,
+        title1:"In this training program, the retention of employees was important to me, because our organization has never done an in-depth study to determine how to retain our most valuable resources.  I am incredibly happy that I attended this training program because it was very enlightening as well as informative, and highlighted areas that HR practitioners may take for granted.  The knowledge I picked up will be recommended to our upper management team for implementation.  Also because of my attendance, it will help me to improve my effectiveness and that of the entire HR department.",
+        disc:"The information was well presented by a deeply knowledgeable instructor who presented the material in an easily understandable way.  The instructor also used everyday examples to help us to understand concepts.",
+        title2:"Linda Fyfield, Human Resources Officer",
+        desc:"St. Christopher Air & Sea Ports (SCASPA), St. Kitts & Nevis"
+      },
+      {
+        id:2,
+        title1:"Employee empowerment correlates with my role as a HR Officer, which also includes employee engagement, strengthening leadership skills and setting clear goals and expectations.  These are the areas that were of most importance to me.  The program provided me with valuable insights to foster productivity in the workplace.  My attendance in this training program reinforced key HR strategies that will enhance employee motivation and workplace culture.",
+        disc:"The entire training was comprehensive, and there is nothing I would change about this program.  The instructor used visuals to enhance the training sessions, to support the concepts in the training manual.  I am very appreciative of the instructor’s delivery.  Also, the instructor presented the topics by using real-life examples and sought feedback from the participants to ensure we understood.  Finally, the sessions were engaging and captivating.",
+        title2:"Janelle Smithen, Human Resources Officer",
+        desc:"St. Christopher Air & Sea Ports (SCASPA), St. Kitts & Nevis"
+      },
+     ]
   },
   {
     id:103,
@@ -1546,7 +2506,23 @@ const NewsdataTest =[
   },
   {
     id:108,
-    title:"Florida – CK 5100 Performance Review and Job Evaluation Management "
+    title:"Florida – CK 5100 Performance Review and Job Evaluation Management ",
+         comments: [
+      {
+        id: 1,
+        title1:
+          "The instructor was quite informed and knowledgeable about the topics discussed in this program — I learned a lot about the dynamics of human resources management. By attending this course, it will help me to be more engaging with the staff I supervise. Also, it will also help me improve my performance as a supervisor, and the ways in which I communicate with everyone.",
+        title2: "Janetta Samuel-White, Assistant Accountant",
+        desc: "Government of Montserrat, Montserrat",
+      },
+      {
+        id: 2,
+        title1:
+          "Succession planning is a topic that was of most significance to me, as this type of planning is desperately needed in the human resources department, as well as other areas within my organization. As such, it was a very interesting and informative workshop that could benefit other human resources practitioners.This training program has allowed me to identify several areas of weaknesses in my organization.",
+        title2: "Merylann Cato-Francis, Human Resources Officer,",
+        desc: "National Insurance Scheme, St. George’s, Grenada",
+      },
+    ],
   },
   {
     id:109,
@@ -1582,7 +2558,23 @@ const NewsdataTest =[
   },
   {
     id:117,
-    title:"Dominica – CK 5100 Performance Review and Job Evaluation Management "
+    title:"Dominica – CK 5100 Performance Review and Job Evaluation Management ",
+         comments: [
+      {
+        id: 1,
+        title1:
+          "The instructor was quite informed and knowledgeable about the topics discussed in this program — I learned a lot about the dynamics of human resources management. By attending this course, it will help me to be more engaging with the staff I supervise. Also, it will also help me improve my performance as a supervisor, and the ways in which I communicate with everyone.",
+        title2: "Janetta Samuel-White, Assistant Accountant",
+        desc: "Government of Montserrat, Montserrat",
+      },
+      {
+        id: 2,
+        title1:
+          "Succession planning is a topic that was of most significance to me, as this type of planning is desperately needed in the human resources department, as well as other areas within my organization. As such, it was a very interesting and informative workshop that could benefit other human resources practitioners.This training program has allowed me to identify several areas of weaknesses in my organization.",
+        title2: "Merylann Cato-Francis, Human Resources Officer,",
+        desc: "National Insurance Scheme, St. George’s, Grenada",
+      },
+    ],
   },
   {
     id:118,
@@ -1692,7 +2684,23 @@ const NewsdataTest =[
   },
   {
     id:123,
-    title:"Florida – CK 5100 Performance Review and Job Evaluation Management "
+    title:"Florida – CK 5200 Performance Review and Job Evaluation Management ",
+         comments: [
+      {
+        id: 1,
+        title1:
+          "The instructor was quite informed and knowledgeable about the topics discussed in this program — I learned a lot about the dynamics of human resources management. By attending this course, it will help me to be more engaging with the staff I supervise. Also, it will also help me improve my performance as a supervisor, and the ways in which I communicate with everyone.",
+        title2: "Janetta Samuel-White, Assistant Accountant",
+        desc: "Government of Montserrat, Montserrat",
+      },
+      {
+        id: 2,
+        title1:
+          "Succession planning is a topic that was of most significance to me, as this type of planning is desperately needed in the human resources department, as well as other areas within my organization. As such, it was a very interesting and informative workshop that could benefit other human resources practitioners.This training program has allowed me to identify several areas of weaknesses in my organization.",
+        title2: "Merylann Cato-Francis, Human Resources Officer,",
+        desc: "National Insurance Scheme, St. George’s, Grenada",
+      },
+    ],
   },
   {
     id:124,
@@ -1712,7 +2720,23 @@ const NewsdataTest =[
   },
   {
     id:128,
-    title:"CK 1400 Human Resources Management Procedures For Public & Private Organizations"
+    title:"CK 1400 Human Resources Management Procedures For Public & Private Organizations",
+    comments:[
+      {
+        id:1,
+        title1:"In this training program, the retention of employees was important to me, because our organization has never done an in-depth study to determine how to retain our most valuable resources.  I am incredibly happy that I attended this training program because it was very enlightening as well as informative, and highlighted areas that HR practitioners may take for granted.  The knowledge I picked up will be recommended to our upper management team for implementation.  Also because of my attendance, it will help me to improve my effectiveness and that of the entire HR department.",
+        disc:"The information was well presented by a deeply knowledgeable instructor who presented the material in an easily understandable way.  The instructor also used everyday examples to help us to understand concepts.",
+        title2:"Linda Fyfield, Human Resources Officer",
+        desc:"St. Christopher Air & Sea Ports (SCASPA), St. Kitts & Nevis"
+      },
+      {
+        id:2,
+        title1:"Employee empowerment correlates with my role as a HR Officer, which also includes employee engagement, strengthening leadership skills and setting clear goals and expectations.  These are the areas that were of most importance to me.  The program provided me with valuable insights to foster productivity in the workplace.  My attendance in this training program reinforced key HR strategies that will enhance employee motivation and workplace culture.",
+        disc:"The entire training was comprehensive, and there is nothing I would change about this program.  The instructor used visuals to enhance the training sessions, to support the concepts in the training manual.  I am very appreciative of the instructor’s delivery.  Also, the instructor presented the topics by using real-life examples and sought feedback from the participants to ensure we understood.  Finally, the sessions were engaging and captivating.",
+        title2:"Janelle Smithen, Human Resources Officer",
+        desc:"St. Christopher Air & Sea Ports (SCASPA), St. Kitts & Nevis"
+      },
+     ]
   },
   {
     id:129,
@@ -3914,9 +4938,10 @@ const CallCenterData =[
  const NewsInnerdata=[
   {
     id:1,
-    title1:" This course should be extended to all employees and business units in Bahamas Electricity Corporation.  The instructor was on point, and explained everything clearly. ",
-    title2:"Darrell Kirk Francis, Senior Control Room Operator",
-    desc:"Bahamas Electricity Corporation, Nassau, Bahamas"
+    title1:"In this training program, the retention of employees was important to me, because our organization has never done an in-depth study to determine how to retain our most valuable resources.  I am incredibly happy that I attended this training program because it was very enlightening as well as informative, and highlighted areas that HR practitioners may take for granted.  The knowledge I picked up will be recommended to our upper management team for implementation.  Also because of my attendance, it will help me to improve my effectiveness and that of the entire HR department.",
+    desc:"The information was well presented by a deeply knowledgeable instructor who presented the material in an easily understandable way.  The instructor also used everyday examples to help us to understand concepts."
+    // title2:"Darrell Kirk Francis, Senior Control Room Operator",
+    // desc:"Bahamas Electricity Corporation, Nassau, Bahamas"
   },
   {
     id:2,
