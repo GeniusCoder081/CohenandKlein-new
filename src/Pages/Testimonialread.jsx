@@ -3,9 +3,10 @@ import { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { FaFileDownload } from "react-icons/fa";
 import { MdStar, MdStarHalf } from "react-icons/md";
-import { NewsdataTesttext } from "../PdfData";
+import { NewsdataTest, NewsdataTesttext } from "../PdfData";
 import CoursePdf from "../assets/CourcesPDF/CoursePdf";
-import { FaAnglesRight,FaAnglesLeft } from "react-icons/fa6";
+import { FaAnglesRight, FaAnglesLeft } from "react-icons/fa6";
+
 const extractCKEntries = (data) => {
   const regex = /CK\s?(\d{3,4})/i;
   const map = new Map();
@@ -20,13 +21,20 @@ const extractCKEntries = (data) => {
     }
   });
 
-  return Array.from(map.entries()).map(([ckCode, entries]) => ({
-    ckCode,
-    entries,
-  }));
+  // Convert map to array and sort by ckCode numerically
+  return Array.from(map.entries())
+    .map(([ckCode, entries]) => ({
+      ckCode,
+      entries,
+    }))
+    .sort((a, b) => {
+      const numA = parseInt(a.ckCode.match(/\d+/)[0], 10);
+      const numB = parseInt(b.ckCode.match(/\d+/)[0], 10);
+      return numA - numB;
+    });
 };
 
-const ckEntries = extractCKEntries(NewsdataTesttext);
+const ckEntries = extractCKEntries(NewsdataTest);
 
 const Testimonialread = () => {
   const [sliderIndex, setSliderIndex] = useState(0);
@@ -128,7 +136,7 @@ const Testimonialread = () => {
       </div>
 
       {/* 🔹 CK Code Tabs */}
-      <div className="relative w-full mt-2 padding-2xl lg:px-16 md:px-8 px-4 pb-8">
+      <div className="relative w-full mt-2 padding-2xl lg:px-16 md:px-8 px-4 pb-6 ">
         <div className="overflow-hidden">
           <div
             ref={ckContainerRef}
@@ -154,7 +162,7 @@ const Testimonialread = () => {
                         entry ? (
                           <button
                             key={entry.ckCode}
-                            className={`px-1.5 py-1 sm:px-2 sm:py-1.5 whitespace-nowrap cursor-pointer rounded-md text-xs sm:text-sm font-semibold ${
+                            className={`px-1.5 py-1 sm:px-2 sm:py-1.5 border border-primary hover:bg-primary transition-all duration-300 hover:text-white whitespace-nowrap cursor-pointer rounded-md text-xs sm:text-sm font-semibold ${
                               selectedCkCode === entry.ckCode
                                 ? "bg-primary text-white"
                                 : "bg-gray-200 text-black"
@@ -184,7 +192,7 @@ const Testimonialread = () => {
               className="px-2 py-1 sm:px-3 sm:py-1.5 lg:px-4 lg:py-2 text-sm sm:text-base bg-primary text-white rounded-md disabled:opacity-50 z-10 min-w-[16px] sm:min-w-[20px] cursor-pointer"
               disabled={tabSlideIndex === 0}
             >
-              <FaAnglesLeft/> 
+              <FaAnglesLeft />
             </button>
             <div className="absolute left-1/2 transform -translate-x-1/2 flex gap-1 sm:gap-2">
               {Array.from({ length: totalSlides }).map((_, index) => (
@@ -205,7 +213,7 @@ const Testimonialread = () => {
               className="px-2 py-1 sm:px-3 sm:py-1.5 lg:px-4 lg:py-2 text-sm sm:text-base bg-primary text-white rounded-md disabled:opacity-50 z-10 min-w-[16px] sm:min-w-[20px] cursor-pointer"
               disabled={tabSlideIndex === totalSlides - 1}
             >
-             <FaAnglesRight/>
+              <FaAnglesRight />
             </button>
           </div>
         )}

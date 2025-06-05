@@ -1115,7 +1115,7 @@ const NewsdataTest =[
       },
       {
         id:3,
-        title1:"The program strengthens participant’s ability to set up, manage and review an effective Collections Department.”,
+        title1:"The program strengthens participant’s ability to set up, manage and review an effective Collections Department.",
         title2:"Gail Singh, Assistant Accountant,",
         desc:"Caribbean Steel Mills, Trinidad.",
       },
@@ -1320,7 +1320,7 @@ const NewsdataTest =[
       },
       {
         id:3,
-        title1:"The presentation was broken down into layman’s terms so any level could adapt, adopt, and comprehend what was being taught.",
+        title1:"The presentation was broken down into layman's terms so any level could adapt, adopt, and comprehend what was being taught.",
         title2:" Kira Thompson-Aird, Communications & Training Manager, H.H.V. ",
         desc:"Whitchurch & Company Limited, Roseau, Common Wealth of Dominica",
       },
@@ -1629,13 +1629,13 @@ const NewsdataTest =[
     comments:[
       {
         id:1,
-        title1:"",
-        desc:""
+        title1:"no data",
+        desc:" no data"
       },
       {
         id:2,
-        title1:"",
-        desc:""
+        title1:" no data",
+        desc:" no data"
       },
   
      ]
@@ -1677,9 +1677,9 @@ const NewsdataTest =[
     comments:[
       {
         id:1,
-        title1:"",
-        title2:"",
-        desc:""
+        title1:"no data",
+        title2:"no data",
+        desc:"no data"
       },
       {
         id:2,
@@ -1874,7 +1874,7 @@ const NewsdataTest =[
         id:5,
         title1:"“I think it is extremely important that every person in the area of collections be made aware of the principles and procedures offered in this course.”",
         title2:"Neville Mais, Compliance Officer, ",
-        desc:"Inland Revenue Department, St. Andrew, Jamaica"",
+        desc:"Inland Revenue Department, St. Andrew, Jamaica",
       },
       {
         id:6,
@@ -2152,12 +2152,12 @@ const NewsdataTest =[
   {
     id:25,
     title:"CK 600: Debt Collections And Revenue Management Procedures For Managers And Supervisors",
-      comments[ 
+      comments:[ 
       {
         id:1,
-        title1:"",
-        title2:"",
-        desc:""
+        title1:"no data",
+        title2:"no data",
+        desc:"no data"
       },
 
     ]
@@ -2165,7 +2165,7 @@ const NewsdataTest =[
   {
     id:26,
     title:"CK 1800: Airport Customer Service And Communication Procedures",
-    comments[ 
+    comments:[ 
       {
         id:1,
         title1:"“The reward and recognition and the Maslow-Hierchy of needs is the part I enjoyed the most. The overall presentation was well presented.”",
@@ -2285,11 +2285,11 @@ const NewsdataTest =[
   },
   {
     id:27,
-    title:"CK 700: Debt Collections Strategies And Techniques For New And Experienced Collectors"
+    title:"CK 701: Debt Collections Strategies And Techniques For New And Experienced Collectors"
   },
   {
     id:28,
-    title:"CK 700: Debt Collections Strategies And Techniques For Revenue Collectors And Compliance Officers"
+    title:"CK 702: Debt Collections Strategies And Techniques For Revenue Collectors And Compliance Officers"
   },
   {
     id:29,
@@ -2826,11 +2826,9 @@ const NewsdataTest =[
       {
         id:1,
         title1:"This was a very informative course, and after attending this training program it has set me on a path that will improve my productivity significantly.The instructor presented some very detailed information, and additionally, made it easy for me to learn new tips and techniques in collections, particularly in the healthcare field. This course will certainly improve my customer service skills, as well as other areas of my job responsibilities.",
-        title2:"Shirika Liburd, Senior Clerk,",
+        title2:"Shirika Liburd, Senior Clerk",
         desc:"Alexandria Hospital, Nevis, St. Kitts"
       },
-
-
      ]
   },
   {
@@ -3220,7 +3218,7 @@ const NewsdataTest =[
       {
         id:40,
         title1:"The course was very interactive.  The videos shown, gave the advantage of seeing the theories expressed in a practical and real-life sense.  Thank you for this opportunity!",
-        title2:"Shereese Thomas, ANU/Revenue, I liked the way the instructor delivered the presentation of the topics and the way he used real-life situations and examples to make his points come across more clearly. 
+        title2:"Shereese Thomas, ANU/Revenue, I liked the way the instructor delivered the presentation of the topics and the way he used real-life situations and examples to make his points come across more clearly.", 
         desc:" LIAT (1974) Ltd., Antigua"
       },
       {
@@ -3389,162 +3387,7 @@ const NewsdataTest =[
   {
     id:42,
     title:"Dominica - CK 700 Debt Collection Strategies and Techniques for New & Experienced Collectors in Public and Private Sectors (Including Financial Institutions)",
-    comments:[
-      {
-        id:1,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:2,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-    
-      {
-        id:3,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:4,
-        title1:"“",
-        title2:"",
-        desc:""
-      },
-      {
-        id:5,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:6,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-        {
-        id:7,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:8,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:9,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:10,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-
-      
-       {
-        id:11,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:12,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-
-         {
-        id:13,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:14,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-       {
-        id:15,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:16,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-
-        {
-        id:9,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:10,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-
-      
-       {
-        id:11,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:12,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-
-         {
-        id:13,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:14,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-       {
-        id:15,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:16,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-
-
-     ]
+    comments:[]
   },
   {
     id:43,
@@ -3914,162 +3757,7 @@ const NewsdataTest =[
   {
     id:50,
     title:"Florida – CK 700 Debt Collection Strategies & Techniques",
-     comments:[
-      {
-        id:1,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:2,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-    
-      {
-        id:3,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:4,
-        title1:"“",
-        title2:"",
-        desc:""
-      },
-      {
-        id:5,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:6,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-        {
-        id:7,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:8,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:9,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:10,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-
-      
-       {
-        id:11,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:12,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-
-         {
-        id:13,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:14,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-       {
-        id:15,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:16,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-
-        {
-        id:9,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:10,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-
-      
-       {
-        id:11,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:12,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-
-         {
-        id:13,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:14,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-       {
-        id:15,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-      {
-        id:16,
-        title1:"",
-        title2:"",
-        desc:""
-      },
-
-
-     ]
+    comments:[]
   },
   {
     id:51,
